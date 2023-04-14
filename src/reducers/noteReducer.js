@@ -1,7 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const generateId = () => Number((Math.random() * 1000000).toFixed(0));
-
 const noteSlice = createSlice({
   name: "notes",
   initialState: [],
@@ -10,7 +8,6 @@ const noteSlice = createSlice({
       state.push(action.payload);
     },
     toggleImportanceOf(state, action) {
-      console.log("state in redux===>:", JSON.parse(JSON.stringify(state)));
       return state.map((note) =>
         note.id === action.payload
           ? { ...note, important: !note.important }

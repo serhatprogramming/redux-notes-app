@@ -7,21 +7,21 @@
     },
     {
       "content": "state changes are made with actions",
-      "important": false,
+      "important": true,
       "id": 2
     },
     {
       "content": "asdfasdf",
-      "important": false,
+      "important": true,
       "id": 3
     },
     {
       "content": "asdfasdf",
-      "important": false,
+      "important": true,
       "id": 4
     },
     {
-      "content": "ssss",
+      "content": "test2",
       "important": false,
       "id": 5
     },
@@ -39,6 +39,11 @@
       "content": "Another important rule",
       "important": false,
       "id": 8
+    },
+    {
+      "content": "1234567890",
+      "important": false,
+      "id": 9
     }
   ]
 }
