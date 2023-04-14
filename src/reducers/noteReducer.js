@@ -28,6 +28,7 @@ const noteSlice = createSlice({
       });
     },
     toggleImportanceOf(state, action) {
+      console.log("state in redux===>:", JSON.parse(JSON.stringify(state)));
       return state.map((note) =>
         note.id === action.payload
           ? { ...note, important: !note.important }
