@@ -22,12 +22,12 @@
     },
     {
       "content": "test2",
-      "important": false,
+      "important": true,
       "id": 5
     },
     {
       "content": "dafsdfasdf",
-      "important": false,
+      "important": true,
       "id": 6
     },
     {
@@ -49,6 +49,11 @@
       "content": "another test",
       "important": true,
       "id": 10
+    },
+    {
+      "content": "test agayn",
+      "important": false,
+      "id": 11
     }
   ]
 }
